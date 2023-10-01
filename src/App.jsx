@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "./components/Header"
 import Hero from "./components/hero";
-import Whoweare from "./components/WhoWeAre";
+import Whoweare from "./components/Whoweare";
 import Services from "./components/Services"
 import Works from "./components/Works";
 import Contact from "./components/Contact"
