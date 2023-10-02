@@ -6,8 +6,8 @@ export default function Services(props){
     const serviceIcons = []
   
     for (let i = 1; i <= numPhotos; i++) {
-      const imagePath = `/AcAir-Website/services/service-photo(${i}).webp`;
-      const iconPath = `/AcAir-Website/services/service-icon(${i}).webp`;
+      const imagePath = `/services/service-photo(${i}).webp`;
+      const iconPath = `/services/service-icon(${i}).webp`;
       servicePhotos.push(
         <img key={i} className="service-img" src={imagePath} alt={`photo ${i}`} loading="lazy"/>
       );
